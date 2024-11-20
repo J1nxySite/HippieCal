@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Crafting Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 600px; margin: auto; }
+        select, button { padding: 10px; margin: 10px 0; width: 100%; }
+        .results { background: #f4f4f4; padding: 20px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Crafting Material Calculator</h1>
+        <label for="item">Choose an item to craft:</label>
+        <select id="item">
+            <!-- Items dynamically added here -->
+        </select>
+        <button onclick="calculateMaterials()">Calculate Materials</button>
+        <div id="output" class="results"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
